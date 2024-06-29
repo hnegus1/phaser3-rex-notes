@@ -229,6 +229,7 @@ declare class Factories {
     textPage: typeof TextPageFactory;
     textPlayer: typeof TextPlayerFactory;
     textTyping: typeof TextTypingFactory;
+    titleLabel: typeof TitleLabelFactory;
     toast: typeof ToastFactory;
     toastQueue: typeof ToastQueueFactory;
     toggleSwitch: typeof ToggleSwitchFactory;
@@ -389,6 +390,7 @@ import TriangleClass from './triangle/Triangle';
 import TransitionImageClass from './transitionimage/TransitionImage';
 import TransitionImagePackClass from './transitionimagepack/TransitionImagePack';
 import TweakerClass from './tweaker/Tweaker';
+import TitleLabel from './titlelabel/TitleLabel';
 
 declare namespace UIPlugin {
     type AIOSpinner = AIOSpinnerClass;
